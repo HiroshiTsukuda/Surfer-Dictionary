@@ -10,18 +10,26 @@ import UIKit
 
 class PopupDetailViewController: UIViewController {
 
-   
+    
+    @IBOutlet weak var imagesView: UIImageView!
     @IBOutlet weak var detailTextView: UILabel!
     var wordDetail = ""
+    var images:UIImage = #imageLiteral(resourceName: "noimage")
     
     override func viewDidLoad() {
         super.viewDidLoad()
         let popUpView: UIView = self.view.viewWithTag(100)! as UIView
         detailTextView.text? = wordDetail
+        imagesView.image = images
+        imagesView.layer.cornerRadius = 1
+        imagesView.clipsToBounds = true
         popUpView.layer.cornerRadius = 15
+        popUpView.clipsToBounds = true
+        
+        
+//        imagesView.layer.cornerRadius = 5
         // Do any additional setup after loading the view.
     }
-    
 
     @IBAction func onTapButtom(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)

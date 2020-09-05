@@ -15,11 +15,12 @@
 		6E73C7BA24C3286A00EF41DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E73C7B924C3286A00EF41DD /* Assets.xcassets */; };
 		6E73C7BD24C3286A00EF41DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E73C7BB24C3286A00EF41DD /* LaunchScreen.storyboard */; };
 		6E73C7C524C328A000EF41DD /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E73C7C424C328A000EF41DD /* Section.swift */; };
+		6EE7240D2503EA8600E7F0CC /* Surfing.mov in Resources */ = {isa = PBXBuildFile; fileRef = 6EE7240C2503EA8600E7F0CC /* Surfing.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6E44BEA424FAC77E00A91DE1 /* PopupDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupDetailViewController.swift; sourceTree = "<group>"; };
-		6E73C7AD24C3286800EF41DD /* ExpandableTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E73C7AD24C3286800EF41DD /* SurferWord.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SurferWord.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E73C7B024C3286800EF41DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E73C7B224C3286800EF41DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		6E73C7B424C3286800EF41DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,6 +29,7 @@
 		6E73C7BC24C3286A00EF41DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E73C7BE24C3286A00EF41DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6E73C7C424C328A000EF41DD /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		6EE7240C2503EA8600E7F0CC /* Surfing.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = Surfing.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,7 @@
 		6E73C7AE24C3286800EF41DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6E73C7AD24C3286800EF41DD /* ExpandableTableView.app */,
+				6E73C7AD24C3286800EF41DD /* SurferWord.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +68,7 @@
 				6E73C7B624C3286800EF41DD /* Main.storyboard */,
 				6E44BEA424FAC77E00A91DE1 /* PopupDetailViewController.swift */,
 				6E73C7B924C3286A00EF41DD /* Assets.xcassets */,
+				6EE7240C2503EA8600E7F0CC /* Surfing.mov */,
 				6E73C7BB24C3286A00EF41DD /* LaunchScreen.storyboard */,
 				6E73C7BE24C3286A00EF41DD /* Info.plist */,
 				6E73C7C424C328A000EF41DD /* Section.swift */,
@@ -90,7 +93,7 @@
 			);
 			name = ExpandableTableView;
 			productName = ExpandableTableView;
-			productReference = 6E73C7AD24C3286800EF41DD /* ExpandableTableView.app */;
+			productReference = 6E73C7AD24C3286800EF41DD /* SurferWord.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -133,6 +136,7 @@
 			files = (
 				6E73C7BD24C3286A00EF41DD /* LaunchScreen.storyboard in Resources */,
 				6E73C7BA24C3286A00EF41DD /* Assets.xcassets in Resources */,
+				6EE7240D2503EA8600E7F0CC /* Surfing.mov in Resources */,
 				6E73C7B824C3286800EF41DD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -300,7 +304,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.window.ExpandableTableView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SurferWord;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -318,7 +322,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.window.ExpandableTableView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SurferWord;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
